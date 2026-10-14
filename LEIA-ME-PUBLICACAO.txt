@@ -1,0 +1,20 @@
+GUIA DA GESTAÇÃO PREMIUM — PWA V21
+
+ARQUIVOS: index.html, manifest.webmanifest, sw.js, pasta icons.
+
+PUBLICAR (exemplo com Netlify):
+1. Extraia o ZIP.
+2. Entre em https://app.netlify.com/drop e envie a PASTA extraída (não apenas o HTML).
+3. Aguarde o endereço HTTPS público.
+4. Abra o link no celular.
+5. Android (Chrome): menu ⋮ > Adicionar à tela inicial / Instalar aplicativo.
+6. iPhone (Safari): Compartilhar > Adicionar à Tela de Início.
+
+DOMÍNIO PRÓPRIO: Configure app.guiadagestacao.com.br nas opções de domínio da hospedagem, seguindo os registros DNS que ela indicar. Não altere o domínio principal sem conferir sua configuração atual.
+
+OBSERVAÇÕES IMPORTANTES:
+- Abrir index.html localmente permite pré-visualizar, mas NÃO ativa a instalação PWA.
+- Os registros da gestante ainda ficam no navegador local; não há login, backup ou sincronização.
+- Esta é uma versão demonstrativa. Revise clinicamente o conteúdo antes de vender.
+- O aplicativo pode funcionar offline depois da primeira visita bem-sucedida e instalação, mas o comportamento varia por navegador.
+- Para atualização futura, troque a versão CACHE em sw.js e publique todos os arquivos.

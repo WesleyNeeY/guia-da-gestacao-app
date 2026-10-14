@@ -1,0 +1,1 @@
+V20: as comparações das semanas 1 a 42 agora usam imagens PNG incorporadas, não emojis de fonte. Isso evita os quadrados vazios no navegador. O PDF original e o leitor de 56 páginas permanecem incorporados. Extraia e abra index.html.
